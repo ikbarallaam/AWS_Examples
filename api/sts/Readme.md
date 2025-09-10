@@ -25,8 +25,8 @@ Test who you are:
 ```sh
 aws sts get-caller-identity
 aws sts get-caller-identity --profile sts
-Make sure you don't have access to S3
 ```
+Make sure you don't have access to S3
 
 ```sh
 aws s3 ls --profile sts
